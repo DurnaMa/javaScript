@@ -7,3 +7,10 @@ pre {
     display: flex;
     justify-content: center;
 }
+
+code {
+    display: block;
+    white-space: pre;
+    padding: 0 1em;
+    background-color: #eee;
+}
