@@ -1,0 +1,9 @@
+p {
+    display: flex;
+    justify-content: center;
+}
+
+pre {
+    display: flex;
+    justify-content: center;
+}
