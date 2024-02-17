@@ -4,13 +4,28 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        
     </head>
     <body>
         <h1 id="headline">Programmier - Witz</h1>
 
-        <button onclick="">neuerWitz</button>
+        <button onclick="joke1()">Witz1</button>
+        <button onclick="joke2()">Witz2</button>
 
-        <p id="witz">UNIX ist das Betriebssystem der Zukunft. Und das schon seit 30 Jahren.</p>
+        <p id="joke">
+            UNIX ist das Betriebssystem der Zukunft. Und das schon seit 30
+            Jahren.
+        </p>
+
+        <script>
+            function joke1() {
+                document.getElementById("joke").innerHTML =
+                    "Die Selbsthilfegruppe „HTML-Sonderzeichen-Probleme“ trifft sich heute im gro&szlig ;en Saal.";
+            }
+
+            function joke2() {
+                document.getElementById("joke").innerHTML =
+                    "Theorie ist wenn du alles weißt aber nichts funktioniert. Praxis ist wenn alles funktioniert aber nieman weiß warum. Bei Programmieren ist Praxis und Theorie vereint. Nichts funktioniert und niemand weiß warum.";
+            }
+        </script>
     </body>
 </html>
