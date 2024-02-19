@@ -8,47 +8,31 @@
     </head>
     <body>
         <p>Coding-Challenge 1</p>
-
-        <pre>
-        
-            <code>
-                // Coding-Challenge1
-                function runCode() {
-                    //Bitte hier Code eingeben
-                    document.getElementById("coolerButton").innerHTML = "Klick mich!";
-                }
-            </code>
-        </pre>
+        <code>
+            // Coding-Challenge1 function runCode() { //Bitte hier Code eingeben
+            document.getElementById("coolerButton").innerHTML = "Klick mich!"; }
+        </code>
 
         <p>Coding-Challenge 2</p>
 
-        <pre>
-        
-            <code>
-                // Bitte hier Code eingeben
-                function favoriteAnimal(){
-                    document.getElementById("animalButton").innerHTML = "Giraffe";
-                }
-        
-            </code>
-        </pre>
+        <code>
+            // Bitte hier Code eingeben function favoriteAnimal(){
+            document.getElementById("animalButton").innerHTML = "Giraffe"; }
+        </code>
 
         <p>Coding-Challenge 3</p>
+        <code>
+            <!-- Hier HTML Code einfügen -->
+            <input id="animal" placeholder="Lieblingstier" />
+            <div id="myText"></div>
+            <button id="newAnimal" onclick="getInput()">
+                Neues Lieblingstier
+            </button>
 
-        <pre>
-        
-            <code>
-                 
-                <!-- Hier HTML Code einfügen -->
-                <input id = "animal" placeholder = 'Lieblingstier'>
-                <div id = "myText"></div>
-                <button id="newAnimal" onclick="getInput()">Neues Lieblingstier</button>
-
-                function getInput() {
-                    let animal = document.getElementById('animal').value
-                    document.getElementById('myText').innerHTML = `Mein Lieblingstier ist ${animal}`
-                }
-            </code>
-        </pre>
+            function getInput() { let animal =
+            document.getElementById('animal').value
+            document.getElementById('myText').innerHTML = `Mein Lieblingstier
+            ist ${animal}` }
+        </code>
     </body>
 </html>
