@@ -40,12 +40,13 @@
             <code>
                  
                 <!-- Hier HTML Code einfügen -->
-                <input id = animal placeholder = 'Lieblingstier'>
-                <div id = myText></div>
+                <input id = "animal" placeholder = 'Lieblingstier'>
+                <div id = "myText"></div>
+                <button id="newAnimal" onclick="getInput()">Neues Lieblingstier</button>
 
-                // Bitte hier Code eingeben
                 function getInput() {
-                let animal = document.getElementById("animal")
+                    let animal = document.getElementById('animal').value
+                    document.getElementById('myText').innerHTML = `Mein Lieblingstier ist ${animal}`
                 }
             </code>
         </pre>
