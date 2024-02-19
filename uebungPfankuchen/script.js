@@ -12,5 +12,3 @@ function addIngredient(menage, name) {
     <td>${name}</td>
 </tr>`;
 }
-
-addAll();
