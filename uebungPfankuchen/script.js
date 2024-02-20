@@ -12,3 +12,10 @@ function addIngredient(menage, name) {
     <td>${name}</td>
 </tr>`;
 }
+
+function addNewIngedient(){
+    let menage = document.getElementById('menge').value;
+    let name = document.getElementById('name').value;
+
+    addIngredient(menage, name)
+}
