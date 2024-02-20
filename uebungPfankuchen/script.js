@@ -18,4 +18,7 @@ function addNewIngedient(){
     let name = document.getElementById('name').value;
 
     addIngredient(menage, name)
+    
+    document.getElementById('menge').value = '';
+    document.getElementById('name').value = '';
 }
